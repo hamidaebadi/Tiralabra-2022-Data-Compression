@@ -2,11 +2,11 @@
 This documentation defines requirements for our application solving the
 problem of reducing size of a file programmatically(compressing data). 
 
-### Basic Infi
-**Developer's Name:** *Hamid Aebadi*
-**Developer's Study Program:**  Bachelor's in Computer Science / TKT kandidaatti
-**Project's main language:** Python (No other languages knows to review other's code than python)
-**Language used for documentation:** English
+### Basic Info
+* **Developer's Name:** *Hamid Aebadi*
+* **Developer's Study Program:**  Bachelor's in Computer Science / TKT kandidaatti
+* **Project's main language:** Python (No other languages knows to review other's code than python)
+* **Language used for documentation:** English
 
 
 # User requirements
