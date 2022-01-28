@@ -1,6 +1,9 @@
 # Introduction
 This documentation defines requirements for our application solving the
-problem of reducing size of a file programmatically(compressing data). 
+problem of reducing size of a textfile programmatically(compressing data).
+Data Compression is an interesting topic with various algorithms. I decided
+to apply two of the most famous algorithms named as Huffman and Lempel Ziv
+in compressing data.
 
 ### Basic Info
 * **Developer's Name:** *Hamid Aebadi*
@@ -9,22 +12,18 @@ problem of reducing size of a file programmatically(compressing data).
 * **Language used for documentation:** English
 
 
-# User requirements
- - User can use application without credentials (login)
- - User can select different textfile/textfiles to being compressed
- - User can deselect all selected items
- - User can compress selected items into a package
- - User can decompose all selected items into a package
+## User Requirements
+ - User use the provided **Command Line Interface** to interacting with application
+ - User can tell the program the filename to being compressed as Input via specifying arguments
+ - User can choose algorithm to use for compresssing the data via options
+ - User can choose to produce statics after compressing the data
 
+## Application requirements
+ - Application provide users with a **Command Line Interface** for interacting with program.
+ - Application accepts different kinds of textfile/textfiles as argument to being compressed.
+ - Application should reduce the size ofśprovided textfils about 40%-60% of the original size.
+ - Application decode compressed data to original data.
 
-# Application logic's requirements
-- Application uses both Huffman coding and Lempel Ziv algorithms
-- Application accepts textfiles as inputs
-- Application produce a package file as output
-- Application's output file's size is 40%-60% of the input's size
-- Application encodes text content
-- Application decodes encoded content to original content
-- Application uses python language's built-in data structres
 
 # Algorithms' time and space complexity
  **Huffman's Algorithm** 
