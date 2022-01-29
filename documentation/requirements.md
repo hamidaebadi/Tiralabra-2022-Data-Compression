@@ -13,15 +13,15 @@ in compressing data.
 
 
 ## User Requirements
- - User use the provided **Command Line Interface** to interacting with application
- - User can tell the program the filename to being compressed as Input via specifying arguments
- - User can choose algorithm to use for compresssing the data via options
- - User can choose to produce statics after compressing the data
+ - User use the provided **Command Line Interface** to interacting with application.
+ - User can tell the program via argument as input, the filename to being compressed.
+ - User can choose the algorithm via options for compresssing the data.
+ - User can choose to produce statistics after compressing the data
 
 ## Application requirements
  - Application provide users with a **Command Line Interface** for interacting with program.
  - Application accepts different kinds of textfile/textfiles as argument to being compressed.
- - Application should reduce the size ofśprovided textfils about 40%-60% of the original size.
+ - Application should reduce the size of the original textfils about 40%-60% of the original size.
  - Application decode compressed data to original data.
 
 
