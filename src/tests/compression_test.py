@@ -9,8 +9,8 @@ class TestCompressionData(unittest.TestCase):
         #ASCII character: 1 character = 8 bits
         self.original_text_size = len(self.text)* 8
         self.huffman_encoding.compress_huffman(self.text)
-        self.encoded_text = self.huffman_encoding.get_encodec_content(self.text)
-        self.encoded_size = len(self.huffman_encoding.get_encodec_content(self.text))
+        self.encoded_text = self.huffman_encoding.get_encoded_content(self.text)
+        self.encoded_size = len(self.huffman_encoding.get_encoded_content(self.text))
 
     def test_huffman_encoding_works(self):
         self.assertNotEqual(self.encoded_text, self.text)
