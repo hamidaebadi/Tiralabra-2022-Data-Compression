@@ -29,11 +29,18 @@ class FileHandler:
             return False
 
     def create_compressed_file(self, content):
-        print(byte_arr)
         dot = self.__filename.index('.')
         self.__filename = self.__filename[:dot]+".xip"
+        i = 0
+        buffer = bytearray()
+        while i < len(content):
+            buffer.append( int(content[i:i+8], 2) )
+            i += 8
+
+        # now write buffer to file
         if self.__open_file('wb'):
-            self.__file_object.write(content)
+            #write codes to file for decodig purposes
+            self.__file_object.write(buffer)
             self.__close_file()
             return True
         else:

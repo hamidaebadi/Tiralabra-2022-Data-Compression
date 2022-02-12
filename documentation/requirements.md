@@ -20,7 +20,7 @@ in compressing data.
 
 ## Application requirements
  - Application provide users with a **Command Line Interface** for interacting with program.
- - Application accepts different kinds of textfile/textfiles as argument to being compressed.
+ - Application accepts textfile/textfiles as argument to be compressed.
  - Application should reduce the size of the original textfils about 40%-60% of the original size.
  - Application decode compressed data to original data.
 

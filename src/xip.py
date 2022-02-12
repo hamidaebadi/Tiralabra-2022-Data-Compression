@@ -43,6 +43,7 @@ elif args.filename is not None and args.compress and args.algo == "HUFFMAN":
     data_compression.compress_huffman(original_content)
     encoded_text = data_compression.get_encoded_content(original_content)
 
+
     #write compressed data into a new file and save file
     if file_obj.create_compressed_file(encoded_text):
         comp_file_size = file_obj.get_file_size()
