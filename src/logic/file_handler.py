@@ -20,7 +20,7 @@ class FileHandler:
         if not self.__file_object.closed:
             self.__file_object.close()
 
-    def get_file_content(self):
+    def get_content(self):
         if self.__open_file('r'):
             content = self.__file_object.read()
             self.__close_file()
